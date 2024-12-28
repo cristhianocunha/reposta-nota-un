@@ -1,0 +1,41 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 28/12/2024
+
+//Uma empresa remunera seus funcionários com R$ 32,50
+//por hora trabalhada. No entanto, para salários superiores a R$ 1.800,00,
+//aplica-se um desconto de 8% referente ao Imposto de Renda (IR).
+//Dado o número de horas trabalhadas por um funcionário, determine
+//o salário bruto, o salário líquido, considerando o desconto do IR,
+//se aplicável.
+
+Var
+// Seção de Declarações das variáveis 
+horas, salario, desconto:REAL
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+//REAL-> FLOAT
+//Escreval -> print, echo
+//LEAIA -> INPUT
+
+escreval("Quantas horas você trabalhou")
+LEIA(horas)
+
+escreval("valor porcetagem desconto sem %")
+LEIA(desconto)
+
+salario <- horas * 32.50
+escreval(salario)
+se salario > 1800 entao
+desconto <- salario * desconto
+escreval(desconto)
+salario <-  salario -  desconto
+escreval("Salario acima de 18000 ficou final" , salario)
+senao
+escreval("salario sem desconto", salario)
+fimse
+

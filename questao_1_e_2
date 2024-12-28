@@ -1,0 +1,58 @@
+Algoritmo "Operadores lógicos"
+Var
+    A,B,C, D, G: logico
+Inicio
+    A <- (12 > 10) OU (12 < 10)
+    B <- (32 * (4 - 2) > 69) OU (35 * (4 - 2) > 69)
+    C <- ((32 / 4) - 3 = 5) E ((26 + 6) / 4 = 5)
+    D <- NAO (14 / 2 * 3 > 21)
+    G <- VERDADEIRO E VERDADEIRO OU FALSO
+Fimalgoritmo
+    
+  //  E -> AND -> &&
+  //  OU -> OR ->  ||
+  //  NAO -> NOT -> !
+  
+    seA E B E C então
+       escreval ("verdadeiro")
+   senao
+         escreval ("falso")
+    fimse
+
+      se   A E B E D então
+       escreval ("verdadeiro")
+   senao
+         escreval ("falso")
+    fimse
+
+      se  A E D E G então
+       escreval ("verdadeiro")
+   senao
+         escreval ("falso")
+    fimse
+
+  
+  // Questão dois
+  
+//A
+    se A E (B OU C) então
+       escreval ("verdadeiro")
+   senao
+         escreval ("falso")
+    fimse
+
+//B
+   se  B E (D OU G) então
+       escreval ("verdadeiro")
+   senao
+         escreval ("falso")
+    fimse
+//C
+     se (B OU G) E C então
+       escreval ("verdadeiro")
+   senao
+         escreval ("falso")
+    fimse
+
+    
+Fimalgoritmo

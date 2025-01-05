@@ -1,6 +1,8 @@
 # Os operadores lógicos, que retornam valores lógicos (verdadeiro ou falso), permitem realizar testes em expressões relacionais compostas. Esses operadores são fundamentais para criar condições mais complexas em algoritmos e são representados por: E , OU  e NAO. Segue o algoritmo abaixo como referência para responder às questões 1 e 2:
 
 
+
+
 Algoritmo "Operadores lógicos"
 Var
     A,B,C, D, G: logico
